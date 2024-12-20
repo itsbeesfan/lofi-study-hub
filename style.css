@@ -1,0 +1,71 @@
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #332266;
+    color: #FFAAFF;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #FFAAFF;
+    font-family: consolas, monospace;
+    display: grid;
+    place-items: center;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #332266;
+    border-color: #332266;
+}
+#credits{
+    text-align: center;
+    color: #ffffff;
+    font-family: consolas, monospace;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+#playlist {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+audio#audio{
+    position: absolute;
+    top: 87.5%;
+    right: -2%;
+    transform: translate(-50%, -50%);
+}
+.active a{
+    color: #ffffff;
+    text-decoration:none;
+}
+li a{
+    color:#eeeedd;
+    padding:5px;
+    display:block;
+    font-family:Consolas, monospace;
+    text-align: center;
+}
+li a:hover{
+    text-decoration:none;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #f5a4f5;
+}
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+    font-family: Consolas, monospace;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+    font-family: Consolas, monospace;
+}
+body {
+    background-image: url("background.gif");
+}
